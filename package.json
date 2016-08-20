@@ -9,7 +9,7 @@
   "author": "Oleg Orlov <mail@orlovoleg.com>",
   "license": "MIT",
   "main": "dist/index.js",
-  "module": "es/index",
+  "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "files": [
     "dist",
