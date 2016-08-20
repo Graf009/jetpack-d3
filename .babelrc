@@ -1,0 +1,18 @@
+{
+  "env": {
+    "commonjs": {
+      "presets": [
+        ["es2015", { "loose": true, "modules": "commonjs" }],
+        "stage-0"
+      ],
+      "plugins": ["add-module-exports"]
+    },
+
+    "es": {
+      "presets": [
+        ["es2015", { "loose": true, "modules": false }],
+        "stage-0"
+      ]
+    }
+  }
+}
